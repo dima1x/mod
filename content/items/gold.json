@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Золото",
+	"description": "-",
+	"hardness": 4,
+	"cost": 2.0,
+	"color": "ffffa1"
+}

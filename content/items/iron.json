@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Железо",
+	"description": "-",
+	"hardness": 4,
+	"cost": 2.0,
+	"color": "ffffa1"
+}
