@@ -1,0 +1,30 @@
+{
+	"type": "GenericSmelter",
+	"name": "Плавильня золота",
+	"description": "-",
+	"outputItem": {"item": "gold", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 10 }
+				{ "item": "titanium", "amount": 10}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 100 },
+		{ "item": "lead", "amount": 50 },
+		{ "item": "titanium", "amount": 150 },
+		{ "item": "graphite", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

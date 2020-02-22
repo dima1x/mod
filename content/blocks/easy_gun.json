@@ -1,0 +1,32 @@
+{
+	"type": "doubleTurret",
+	"name": "Лёгкая турэль",
+	"description": "-",
+	"health": 300,
+	"size": 1,
+	"reload": 4,
+	"range": 100,
+	"recoil": 6,
+	"ammoUseEffect": "shellEjectSmall",
+	"rotatespeed": 12,
+	"ammo": {
+		"copper": {
+			"ammoMultiplier": 2,
+			"reloadMultiplier": 0.3, 
+			"damage": 30,
+			"speed": 3.0,
+			"bulletWidth": 5,
+			"bulletHeight": 9,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"frontColor": "3D9FD5",
+			"backColor": "0A80C1"
+			}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 50 },
+		{ "item": "copper", "amount": 600 }
+	],
+	"category": "turret",
+	"research": "duo"
+}

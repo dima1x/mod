@@ -1,0 +1,15 @@
+{
+	"name": "Золотая стена",
+	"description": "Прочная стена",
+	"type": "Wall",
+	"health": 2000,
+	"size": 1,
+	"requirements": [
+		{ "item": "gold", "amount": 50 }
+	],
+	"category": "defense",
+	"research": "router",
+	"reload": 200, 
+	"range": 400,
+	"healPercent": 4
+}

@@ -1,0 +1,25 @@
+{
+	"name": "Дрель",
+	"description": "-",
+	"type": "Drill",
+	"size": 2,
+	"tier": 18,
+	"itemCapacity": 10,
+	"drillTime": 5,
+	"drawRim": true,
+	"consumes": {
+		"power": 1.0,
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.1,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+	    { "item": "copper", "amount": 1000 }
+	    { "item": "titanium", "amount": 50 }
+	],
+	"category": "production",
+	"research": "blast-drill"
+}

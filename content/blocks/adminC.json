@@ -1,0 +1,28 @@
+{
+	"type": "GenericSmelter",
+	"name": "плавильна админиума",
+	"description": "-",
+	"outputItem": {"item": "admin", "amount": 1},
+	"size": 2,
+	"itemCapacity": 1000,
+	"hasPower": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 1000}
+				{ "item": "titanium", "amount": 100}
+				{ "item": "gold", "amount": 150}
+				{ "item": "iron", "amount": 555}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "gold", "amount": 50 },
+		{ "item": "iron", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "router"
+}
